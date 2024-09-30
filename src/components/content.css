@@ -1,0 +1,180 @@
+/* Main container holding sidebar and content */
+.main {
+    display: flex;
+    height: 100vh;
+    background-color: #141414;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 500px; /* Ensure the sidebar has at least 500px width */
+    min-width: 500px; /* Ensure it doesn't shrink below 500px */
+    height: 100%;
+    background-color: #4d4a4a;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+                      url("C:\Users\arjun\Desktop\luminar\REACT\portfolio\portfolio\src\assets\photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    opacity: 0.5;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 0;
+    margin-right: 20px;
+    
+}
+/* Sidebar icons */
+.icons {
+    width: 70px;
+    background-color: #141414;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 30px;
+    justify-content: center;
+}
+
+.icons a {
+    text-decoration: none;
+    color: rgb(7, 196, 67);
+    padding: 20px;
+    font-size: 20px;
+}
+
+/* Sidebar */
+
+/* Sidebar text and icons */
+.sidebar h1, .sidebar p {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.sidebar p {
+    color: rgb(7, 196, 67);
+    padding-bottom: 30px;
+}
+
+.icons2 a {
+    margin: 0 10px;
+    color: white;
+    font-size: 24px;
+}
+
+.icons2 {
+    padding-bottom: 20px;
+}
+
+/* Main content section */
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+    color: white;
+    background-color: #282828;
+    overflow-y:auto;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+/* Skills section with cards */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+    gap: 20px;
+    margin-top: 40px;
+    justify-items: center;
+}
+
+/* Individual card styling */
+.card {
+    background-color: #2d2d2d;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 90%;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.skill-icon {
+    font-size: 48px;
+    color: rgb(7, 196, 67);
+    margin-bottom: 15px;
+}
+
+.card h2 {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 20px;
+
+}
+
+.card p {
+    color: #aaa;
+    font-size: 16px;
+}
+
+/* MongoDB and Express icons */
+.card img.skill-icon {
+    width: 48px;
+    height: 48px;
+}
+
+/* About me section */
+.main-content ul {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.main-content ul li {
+    list-style: none;
+    color: rgb(7, 196, 67);
+}
+
+.main-content ul li::after {
+    content: "/";
+    padding-left: 20px;
+    color: #fff;
+}
+
+/* Adjust paragraph styling */
+.main-content h5 {
+    text-align: justify;
+    padding: 50px 120px;
+}
+
+.p {
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.p h5 {
+    font-size: 20px;
+}
+
+.p hr {
+    margin-top: 90px;
+}
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+    gap: 20px;
+    margin-top: 40px;
+    justify-items: center;
+  }
+  .c2 h2{
+    color: rgb(7, 196, 67); ;
+  }
