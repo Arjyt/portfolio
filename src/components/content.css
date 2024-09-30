@@ -14,7 +14,7 @@
     height: 100%;
     background-color: #4d4a4a;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
-                      url("C:\Users\arjun\Desktop\luminar\REACT\portfolio\portfolio\src\assets\photo.jpg");
+                      url('../assets/photo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
